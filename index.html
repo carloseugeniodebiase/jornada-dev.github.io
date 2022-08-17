@@ -1,37 +1,61 @@
-<html>
-<!-- Todo o código HTML é estruturado dentro dessa tag.-->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <!-- Essa tag diz respeito ao conteúdo do cabeçalho da página HTML. Aqui também devem ser relacionadas as chamadas aos scripts, etc. que serão executados na página.-->
-  <title>
-    Cabeçalho do site
-  </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dustin Skywalker CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!-- Nessa tag será estruturado todo o corpo da página HTML.-->
-  <h1>Corpo do site</h1>
-  <h2>Corpo do site</h2>
+  <!--A partir de agora, vamos dividir as seções do CV.-->
+  <main class="resume-contents">
+    <section class="left-section">
+      <section class="left-section-contents">
+        <div class="profile">
+          <img class="profile-image" src="img/profile.jpg" alt="Profile Image" width="200">
+          <p class="name">Dustin Skywalker</p>
+          <p class="profession">Desenvolvedor de Software</p>
+        </div>
+        <div class="contact-info">
+          <p class="left-title">Contato</p>
+          <ul>
+            <li><i class="fa fa-phone"></i>+55 81 99999-9999</li>
+            <li><i class="fa fa-envelope"></i>dustin.skywalker@star-wars.com</li>
+            <li><i class="fa fa-globe"></i>www.star-wars.com</li>
+            <li><i class="fa fa-github"></i>dustinskywalker-1977</li>
+          </ul>
+        </div>
+        <div class="skills">
+          <p class="left-title">Conhecimento Técnico</p>
+          <ul>
+            <li>
+              <p>Python, Java, JavaScript, HTML, CSS, Git, GitHub</p>
+            </li>
+            <li>
+              <p>Linux, Windows</p>
+            </li>
+            <li>
+              <p>Scrum, Kanban, DevOps</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section class="right-section">
+      <div class="right-section-contents">
+        <section class="about gap">
+          <div class="right-title">Sobre Mim</div>
+          <p class="about-me-contents">
+            Atuamos na área de Desenvolvimento de Software há dois anos e possuímos experiência com as linguagens de
+            programação JavaScript e Python. Somos entusiastas Front-End e estamos aprendendo mais sobre HTML e CSS.
+          </p>
+        </section>
+      </div>
+    </section>
+  </main>
 </body>
-<ol>
-  <!-- Exibe uma lista ordenada dos itens.-->
-  <li>Café</li>
-  <li>Chá</li>
-  <li>Leite</li>
-  <li>Suco</li>
-  <li>Refrigerante</li>
-  <li>Água</li>
-  <li>Milkshake</li>
-</ol>
-<ul>
-  <!-- Exibe uma lista não ordenada dos itens.-->
-  <li>Café</li>
-  <li>Chá</li>
-  <li>Leite</li>
-  <li>Suco</li>
-  <li>Refrigerante</li>
-  <li>Água</li>
-  <li>Milkshake</li>
-</ul>
 
 </html>
